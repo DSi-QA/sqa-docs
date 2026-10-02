@@ -8,7 +8,7 @@ A documentation hub for the QA team. Upload Word documents to GitHub — they're
 
 ### Step 1 — Open the right folder on GitHub
 
-Go to: `https://github.com/mdraselkabir1/sqa-docs/tree/main/docs`
+Go to: `https://github.com/DSi-QA/sqa-docs/tree/main/docs`
 
 Click the folder that matches your document type (e.g., `test-planning/`).
 
@@ -27,7 +27,7 @@ GitHub automatically:
 
 ### Step 4 — Share the link
 
-Site URL: **https://mdraselkabir1.github.io/sqa-docs/**
+Site URL: **https://DSi-QA.github.io/sqa-docs/**
 
 ---
 
