@@ -1,0 +1,29 @@
+site_name: SQA Documentation
+site_url: https://mdraselkabir1.github.io/sqa-docs/
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.expand
+    - search.highlight
+    - search.suggest
+plugins:
+  - search
+  - awesome-pages
+extra_css:
+  - assets/extra.css
