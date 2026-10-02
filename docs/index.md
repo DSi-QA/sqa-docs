@@ -14,9 +14,9 @@ Every document page has a **⬇ Download .docx** button to get the original Word
 
 | Category | Description |
 |---|---|
-| [Test Planning](test-planning/) | Test strategies and test plan templates |
-| [Test Types](test-types/) | Functional, regression, API, and performance testing guides |
-| [Tools & Frameworks](tools-and-frameworks/) | Setup guides and usage references |
-| [Best Practices](best-practices/) | Bug reporting, review checklists, standards |
-| [Templates](templates/) | Reusable document templates |
-| [Release Checklists](release-checklists/) | Pre and post-release verification checklists |
+| **Test Planning** | Test strategies and test plan templates |
+| **Test Types** | Functional, regression, API, and performance testing guides |
+| **Tools & Frameworks** | Setup guides and usage references |
+| **Best Practices** | Bug reporting, review checklists, standards |
+| **Templates** | Reusable document templates |
+| **Release Checklists** | Pre and post-release verification checklists |
