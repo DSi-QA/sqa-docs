@@ -58,11 +58,11 @@ title: {title}
 # {title}
 
 <div class="pdf-viewer">
-  <iframe src="{slug}.pdf" width="100%" height="800px"></iframe>
+  <iframe src="../{slug}.pdf" width="100%" height="800px"></iframe>
 </div>
 
 <p>
-  <a href="{docx_path.name}" class="md-button md-button--primary">&#8681; Download .docx</a>
+  <a href="../{docx_path.name}" class="md-button md-button--primary">&#8681; Download .docx</a>
 </p>
 """,
         encoding="utf-8",
