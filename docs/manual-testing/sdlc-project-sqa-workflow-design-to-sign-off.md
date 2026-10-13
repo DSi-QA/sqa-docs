@@ -1,8 +1,8 @@
 ---
-title: Sdlc Project Sqa Workflow Design To Sign Off
+title: SDLC Project SQA Workflow Design to Sign-off
 ---
 
-# Sdlc Project Sqa Workflow Design To Sign Off
+# SDLC Project SQA Workflow Design to Sign-off
 
 <div class="pdf-viewer">
   <iframe src="../sdlc-project-sqa-workflow-design-to-sign-off.pdf" width="100%" height="800px"></iframe>

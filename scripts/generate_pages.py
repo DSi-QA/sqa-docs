@@ -17,8 +17,8 @@ def slugify(name: str) -> str:
     return re.sub(r"[\s_]+", "-", name)
 
 
-def title_from_slug(slug: str) -> str:
-    return slug.replace("-", " ").title()
+def title_from_stem(stem: str) -> str:
+    return stem.replace("-", " ").replace("_", " ")
 
 
 def convert_docx_to_pdf(docx_path: Path) -> Path:
@@ -41,7 +41,7 @@ def generate_md_page(docx_path: Path) -> Path:
     """Generate a .md page embedding the PDF and linking the .docx for download."""
     stem = docx_path.stem
     slug = slugify(stem)
-    title = title_from_slug(slug)
+    title = title_from_stem(stem)
 
     # LibreOffice names output after the original stem; rename to slug
     original_pdf = docx_path.parent / f"{stem}.pdf"
