@@ -37,11 +37,20 @@ def convert_docx_to_pdf(docx_path: Path) -> Path:
     return docx_path.with_suffix(".pdf")
 
 
+def read_existing_title(md_path: Path) -> str | None:
+    """Return the title from an existing .md file's frontmatter, or None."""
+    if not md_path.exists():
+        return None
+    text = md_path.read_text(encoding="utf-8")
+    match = re.match(r"^---\s*\ntitle:\s*\"?(.+?)\"?\s*\n", text)
+    return match.group(1).strip() if match else None
+
+
 def generate_md_page(docx_path: Path) -> Path:
     """Generate a .md page embedding the PDF and linking the .docx for download."""
     stem = docx_path.stem
     slug = slugify(stem)
-    title = title_from_stem(stem)
+    auto_title = title_from_stem(stem)
 
     # LibreOffice names output after the original stem; rename to slug
     original_pdf = docx_path.parent / f"{stem}.pdf"
@@ -50,9 +59,17 @@ def generate_md_page(docx_path: Path) -> Path:
         original_pdf.rename(slug_pdf)
 
     md_path = docx_path.parent / f"{slug}.md"
+
+    # Preserve a manually customised title if one exists
+    existing_title = read_existing_title(md_path)
+    title = existing_title if existing_title and existing_title != auto_title else auto_title
+
+    # Quote the title in YAML if it contains special characters
+    yaml_title = f'"{title}"' if any(c in title for c in '-(),:') else title
+
     md_path.write_text(
         f"""---
-title: {title}
+title: {yaml_title}
 ---
 
 # {title}
