@@ -1,8 +1,8 @@
 ---
-title: SQA Workflow -- From Design to Sign-off (For the project that follows SDLC process)
+title: SDLC Project SQA Workflow Design to Sign off
 ---
 
-# SQA Workflow -- From Design to Sign-off (For the project that follows SDLC process)
+# SDLC Project SQA Workflow Design to Sign off
 
 <div class="pdf-viewer">
   <iframe src="../sdlc-project-sqa-workflow-design-to-sign-off.pdf" width="100%" height="800px"></iframe>
