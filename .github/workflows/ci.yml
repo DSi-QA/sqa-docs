@@ -9,6 +9,7 @@ on:
       - "mkdocs.yml"
       - "scripts/**"
       - "requirements.txt"
+      - ".github/workflows/ci.yml"
   workflow_dispatch:   # allows manual trigger from GitHub UI
 
 permissions:
