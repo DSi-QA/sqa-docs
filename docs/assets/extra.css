@@ -21,3 +21,8 @@
 .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link {
   font-weight: 700;
 }
+
+/* Hide duplicate site name title in sidebar */
+.md-nav--primary > .md-nav__title {
+  display: none;
+}
