@@ -16,3 +16,8 @@
   background-color: rgb(63, 81, 181);
   border-color: rgb(63, 81, 181);
 }
+
+/* Bold top-level section labels in sidebar */
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link {
+  font-weight: 700;
+}
