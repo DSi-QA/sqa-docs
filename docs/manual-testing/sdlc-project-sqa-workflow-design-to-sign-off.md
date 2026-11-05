@@ -5,7 +5,7 @@ title: "SQA Workflow -- From Design to Sign-off (For the project that follows SD
 # SQA Workflow -- From Design to Sign-off (For the project that follows SDLC process)
 
 <div class="pdf-viewer">
-  <iframe src="../sdlc-project-sqa-workflow-design-to-sign-off.pdf" width="100%" height="800px"></iframe>
+  <iframe src="../sdlc-project-sqa-workflow-design-to-sign-off.pdf#view=FitH&toolbar=1" width="100%" height="800px"></iframe>
 </div>
 
 <p>
