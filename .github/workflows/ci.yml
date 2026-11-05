@@ -56,11 +56,8 @@ jobs:
             git push origin main
           fi
 
-      - name: Debug - list docs/templates contents
-        run: ls -la docs/templates/ && echo "---" && find docs/ -name "*.md" | sort
-
       - name: Build MkDocs site
-        run: mkdocs build --verbose
+        run: mkdocs build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
