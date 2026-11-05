@@ -3,6 +3,7 @@
   border-radius: 4px;
   overflow: hidden;
   margin-bottom: 1.5rem;
+  background: #3c3c3c;
 }
 
 .pdf-viewer iframe {
@@ -10,6 +11,7 @@
   min-height: 700px;
   width: 100%;
   border: none;
+  background: #3c3c3c;
 }
 
 .md-button--primary {
