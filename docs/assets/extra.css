@@ -1,9 +1,14 @@
+/* Widen the page grid so PDF pages have more reading room */
+.md-grid {
+  max-width: 90rem;
+}
+
 .pdf-viewer {
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 4px;
   overflow: hidden;
   margin-bottom: 1.5rem;
-  background: #3c3c3c;
+  background: #525659;
 }
 
 .pdf-viewer iframe {
@@ -11,12 +16,37 @@
   min-height: 700px;
   width: 100%;
   border: none;
-  background: #3c3c3c;
+  background: #525659;
 }
 
 .md-button--primary {
   background-color: rgb(63, 81, 181);
   border-color: rgb(63, 81, 181);
+}
+
+/* Sidebar resize handle — fixed to body, spans full page height, always visible */
+.sidebar-resize-handle {
+  position: fixed;
+  bottom: 0;
+  width: 4px;
+  cursor: col-resize;
+  z-index: 200;
+  background: rgba(99, 108, 200, 0.35);
+  transition: background 0.15s ease, width 0.1s ease;
+  border-radius: 2px;
+}
+
+.sidebar-resize-handle:hover,
+.sidebar-resizing .sidebar-resize-handle {
+  background: rgba(99, 108, 200, 0.75);
+  width: 5px;
+}
+
+/* Freeze cursor and selection while dragging */
+.sidebar-resizing,
+.sidebar-resizing * {
+  cursor: col-resize !important;
+  user-select: none !important;
 }
 
 /* Bold top-level section labels in sidebar */

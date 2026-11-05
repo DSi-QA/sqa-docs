@@ -5,7 +5,7 @@ title: SQA Test Case Writing Template
 # SQA Test Case Writing Template
 
 <div class="pdf-viewer">
-  <iframe src="../sqa-test-case-writing-template.pdf#view=FitH&toolbar=1" width="100%" height="800px"></iframe>
+  <iframe src="../sqa-test-case-writing-template.pdf#zoom=page-width&navpanes=0&pagemode=none" width="100%" height="800px"></iframe>
 </div>
 
 <p>
