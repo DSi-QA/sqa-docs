@@ -9,6 +9,8 @@
   overflow: hidden;
   margin-bottom: 1.5rem;
   background: #525659;
+  display: flex;
+  justify-content: center;
 }
 
 .pdf-viewer iframe {

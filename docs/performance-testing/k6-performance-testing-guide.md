@@ -5,7 +5,7 @@ title: K6 Performance Testing Guide
 # K6 Performance Testing Guide
 
 <div class="pdf-viewer">
-  <iframe src="../k6-performance-testing-guide.pdf#zoom=page-width&navpanes=0&pagemode=none" width="100%" height="800px"></iframe>
+  <iframe src="../k6-performance-testing-guide.pdf#zoom=125&navpanes=0&pagemode=none" width="100%" height="800px"></iframe>
 </div>
 
 <p>
