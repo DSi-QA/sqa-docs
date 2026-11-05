@@ -75,7 +75,7 @@ title: {yaml_title}
 # {title}
 
 <div class="pdf-viewer">
-  <iframe src="../{slug}.pdf#view=FitH&toolbar=1" width="100%" height="800px"></iframe>
+  <iframe src="../{slug}.pdf#zoom=page-width&navpanes=0&pagemode=none" width="100%" height="800px"></iframe>
 </div>
 
 <p>
