@@ -1,0 +1,13 @@
+---
+title: SDLC Project SQA Workflow Design to Sign off
+---
+
+# SDLC Project SQA Workflow Design to Sign off
+
+<div class="pdf-viewer">
+  <iframe src="../sdlc-project-sqa-workflow-design-to-sign-off.pdf#zoom=125&navpanes=0&pagemode=none" width="100%" height="800px"></iframe>
+</div>
+
+<p>
+  <a href="../SDLC-Project-SQA-Workflow-Design-to-Sign-off.docx" class="md-button md-button--primary">&#8681; Download .docx</a>
+</p>
