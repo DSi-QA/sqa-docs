@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "docs/**/*.docx"
+      - "docs/**/.pages"
       - "docs/index.md"
       - "mkdocs.yml"
       - "scripts/**"

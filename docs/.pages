@@ -1,0 +1,9 @@
+nav:
+  - index.md
+  - manual-testing
+  - performance-testing
+  - templates
+  - test-planning
+  - test-types
+  - release-checklists
+  - tools-and-frameworks
